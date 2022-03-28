@@ -192,5 +192,5 @@ def display_value(value, k, start, stop, war_dirichlet, war_neuman):
     )
 
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run_server(host='127.0.0.1', port=8200, debug=True)
