@@ -90,7 +90,7 @@ app.layout = html.Div(
                     max=3.5,
                     step=0.01,
                     marks={i: "{}".format(round(10**i)) for i in range(4)},
-                    value=2,
+                    value=1.5,
                     updatemode="drag",
                 ),
                 html.Div(children=[], id="update-output-container"),
